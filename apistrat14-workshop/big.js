@@ -1,7 +1,7 @@
 window.onload = function() {
   var cx = Math.max(document.documentElement.clientWidth, window.innerWidth || 0) / 2,
       cy = Math.max(document.documentElement.clientHeight, window.innerHeight || 0) / 2;
-  
+
   var s = document.getElementsByTagName('div'), cur = 0, ti;
   var bg = document.getElementById('background-image');
   var tr = 0;
@@ -17,13 +17,13 @@ window.onload = function() {
           .duration(1500)
           .attr("transform", "translate(" + tw + "," + th + ")rotate(" + tr + ")scale("+ts+")");
     }
-    
+
     cur = n;
     var i = 1e3, e = s[n], t;
     for (var k = 0; k < s.length; k++) s[k].style.display = 'none';
     e.style.display = 'inline';
     e.style.fontSize = i + 'px';
-    
+
     // //
     // if (e.firstChild.nodeName === 'IMG') {
     //     e.firstChild.style.height = '100%';
@@ -58,14 +58,14 @@ window.onload = function() {
     e.style.marginTop = ((window.innerHeight - e.offsetHeight) / 2) + 'px';
     if (window.location.hash !== n) window.location.hash = n;
     document.title = e.textContent || e.innerText;
-              
+
   }
   document.onclick = function() { go(++cur % (s.length)); };
   function fwd() { go(Math.min(s.length - 1, ++cur)); }
   function rev() { go(Math.max(0, --cur)); }
   document.onkeydown = function(e) {
-    if (e.which === 39) fwd();
-    if (e.which === 37) rev();
+    if (e.which === 39 || e.which === 34) fwd();
+    if (e.which === 37 || e.which === 33) rev();
   };
   document.ontouchstart = function(e) {
     var x0 = e.changedTouches[0].pageX;
@@ -87,12 +87,12 @@ window.onload = function() {
   };
 
   go(cur);
-  
+
   var GRATICULE_MIN = -2000,
       GRATICULE_MAX = 2000,
       GRATICULE_STEP = 100;
   for (var i=GRATICULE_MIN; i < GRATICULE_MAX; i+=GRATICULE_STEP) {
-    
+
     d3.select('#graticules')
       .append('line')
         .classed('thick-graticule', i % (GRATICULE_STEP * 5) == 0)
@@ -100,7 +100,7 @@ window.onload = function() {
         .attr('y1', GRATICULE_MIN)
         .attr('x2', i)
         .attr('y2', GRATICULE_MAX);
-        
+
     d3.select('#graticules')
       .append('line')
         .classed('thick-graticule', i % (GRATICULE_STEP * 5) == 0)
@@ -108,5 +108,5 @@ window.onload = function() {
         .attr('y1', i)
         .attr('x2', GRATICULE_MAX)
         .attr('y2', i);
-  }   
+  }
 };
