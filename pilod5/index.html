@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CitySDK Linked Data API</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="stylesheet" href="style.css" id="theme">
+  <script src="d3.v3.min.js" charset="utf-8"></script>
+	<script src="big.js"></script>
+</head>
+<body>
+  <svg><g id="graticules"></g></svg>
+  <span id="waagje"></span>
+  <span id="background-image"></span>
+
+  <!-- Introduction -->
+
+  <div>CitySDK LD API<br/>
+    Now <em>&rArr;</em> Next <em>&rArr;</em> Later <em>&rArr;</em>
+  </div>
+
+  <div>
+    <a href="mailto:bert@waag.org">Bert&nbsp;Spaan</a>
+    <br /> <em>&#9679;</em> <br />
+    <a href='http://www.waag.org/en'>Waag&nbsp;Society</a>
+  </div>
+
+  <div>We try to solve the following problem:</div>
+  <div><img src='divv.portal.png' />Data portal</div>
+  <div><img src='silos.png' />Different silos <em>&#9679;</em> not linked</div>
+  <div><img src='formats.png' />Different file formats</div>
+  <div><img src='bag-sql.png' />Different data models &amp; field names (1)</div>
+  <div><img src='gtfs1.png' />Different data models &amp; field names (2)</div>
+  <div><img src='ndw-xml.png' />Different data models &amp; field names (3)</div>
+  <div>CitySDK Linked Data API</div>
+  <div>Data from different data sources <br /> <em>One unified REST API</em></div>
+
+  <div><img src='parkinggarage1.png' />Concept (1)</div>
+  <div><img src='silos.png' />Concept (2)</div>
+  <div><img src='parkinggarage3.png' />Concept (3)</div>
+  <div>URI for each object</div>
+  <div>API for a read/write city</div>
+
+  <div>
+    Public transport <em>&#9679;</em>
+    parking <em>&#9679;</em>
+    traffic information <em>&#9679;</em>
+    weather forecasts <em>&#9679;</em>
+    bicycles <em>&#9679;</em>
+    addresses <em>&#9679;</em>
+    events <em>&#9679;</em>
+    monuments <em>&#9679;</em>
+    POIs
+  </div>
+
+  <!-- Now -->
+
+  <div class="idea">Now</div>
+  <div><img src='cbs_api.gif' />CBS - API</div>
+  <div><img src='cbs_map.gif' />CBS - Map</div>
+  <div>Data: only key-value data</div>
+  <div>Fields + semantics per layer</div>
+  <div>Output: <em>JSON</em> &amp; <em>Turtle</em></div>
+  <div><img src='rws.png' />Rijkswaterstaat</div>
+  <div><img src='turtle.png' />Turtle</div>
+
+  <!-- Next -->
+
+  <div class="idea">Next</div>
+  <div>JSON LD context per layer</div>
+  <div>Data: any (nested) JSON object</div>
+  <div>Output: <em>GeoJSON</em>, <em>Turtle</em>, <em>JSON-LD</em></div>
+  <div>JSON LD context per layer</div>
+  <div><pre><code>
+require 'rdf/turtle'
+require 'json/ld'
+  </code></pre></div>
+
+  <!-- Later -->
+
+  <div class="idea">Later</div>
+
+  <div>Research ways to make publishing linked data easier</div>
+
+  <!-- - - - - - - - - Idea 1 - - - - - - - - -->
+  <div class="idea">1. Linking data sets</div>
+  <div>
+    Rule-based, between pairs of data sets
+    <span class="corner idea">1: Linking data sets</span>
+  </div>
+  <div>
+    <img src='link-rules.png' />
+    <span class="corner idea">1: Linking data sets</span>
+  </div>
+
+  <!-- - - - - - - - - Idea 2 - - - - - - - - -->
+  <div class="idea">2. Categorize objects</div>
+  <div>
+    OpenStreetMap, DBpedia, Schema.org, …
+    <span class="corner idea">2: Categorize objects</span>
+  </div>
+  <div>
+    <code>tourism=museum</code><br />
+    <code>dbpedia:Museum</code><br />
+    <code>schema:Museum</code>
+    <span class="corner idea">2: Categorize objects</span>
+  </div>
+
+  <!-- - - - - - - - - Idea 3 - - - - - - - - -->
+  <div class="idea">3. Automatic linking</div>
+  <div>
+    Linking rules + categories: automatic linking
+    <span class="corner idea">3. Automatic linking</span>
+  </div>
+  <div>
+    Support changing data sets
+    <span class="corner idea">3. Automatic linking</span>
+  </div>
+
+  <div>
+    <a href="http://citysdk.eu/">citysdk.eu</a> <br />
+    <a href="http://citysdk.waag.org/">citysdk.waag.org</a>
+  </div>
+
+  <div>
+    <span id="logos">
+      <a href="http://waag.org/en"><img src="waag.png" /></a>
+      <a href="http://citysdk.eu/"><img src="citysdk.png" /></a>
+    </span>
+  </div>
+</body>
+</html>
