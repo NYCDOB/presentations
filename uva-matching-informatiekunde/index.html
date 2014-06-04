@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CitySDK</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="stylesheet" href="style.css" id="theme">
+  <script src="d3.v3.min.js" charset="utf-8"></script>
+	<script src="big.js"></script>
+</head>
+<body>
+  <svg><g id="graticules"></g></svg>
+  <span id="waagje"></span>
+  <span id="background-image"></span>
+
+  <!-- Introduction -->
+  <div>Open Data</div>
+
+  <div>
+    <a href="mailto:bert@waag.org">Bert&nbsp;Spaan</a>
+    <br /> <em>&#9679;</em> <br />
+    <a href='http://www.waag.org/en'>Waag&nbsp;Society</a>
+  </div>
+
+  <div><img src='newmarket.jpg' />Waag Society</div>
+  <div><img src='the-anatomy-lesson.jpg' />Anatomische Les</div>
+  <div><img src='fablab.jpg' />Fablab Amsterdam</div>
+  <div><img src='hack-the-brain.jpg' />Fairphone</div>
+  <div><img src='prototype.jpg' />Prototyping</div>
+  <div><img src='fairphone.jpg' />Fairphone</div>
+
+  <div>Wat is Open Data?</div>
+  <div>Wat kan je doen als je de volgende <em>open data</em> zou hebben...</div>
+
+  <div class="vraag">Toeristische evenementen, Toegangsprijzen, openingstijden?</div>
+  <div class="vraag">Beschikbaarheid en prijzen van parkeerplaatsen?</div>
+  <div class="vraag">Handelsregister van Kamer van Koophandel?</div>
+  <div class="vraag">Alle OV-haltes en vertrektijden?</div>
+  <div class="vraag">Sensorgegevens in de hele stad?</div>
+  <div class="vraag">Landkaart van de heel Nederland?</div>
+
+  <div>Is deze Open Data beschikbaar?</div>
+  <div>En zo ja, hoe?</div>
+
+  <div>
+    <table>
+      <tr><td><em>&#9733;</em></td><td>Data&nbsp;online,&nbsp;open&nbsp;licentie</td></tr>
+      <tr><td><em>&#9733;&#9733;</em></td><td>Gestructureerde&nbsp;data</td></tr>
+      <tr><td><em>&#9733;&#9733;&#9733;</em></td><td>Open&nbsp;formaat</td></tr>
+      <tr><td><em>&#9733;&#9733;&#9733;&#9733;</em></td><td>URI's&nbsp;ter&nbsp;identificatie</td></tr>
+      <tr><td><em>&#9733;&#9733;&#9733;&#9733;&#9733;</em></td><td>Links&nbsp;met&nbsp;andere&nbsp;data</td></tr>
+    </table>
+  </div>
+
+  <div><img src='lod-cloud.png' />LOD cloud</div>
+
+  <div><img src='opendata5.png' />Open data - Picnic</div>
+  <div><img src='opendata6.png' />Open data - Picnic</div>
+  <div><img src='opendata1.png' />Open data - Picnic</div>
+  <div><img src='opendata2.png' />Open data - Picnic</div>
+  <div><img src='opendata3.png' />Open data - Picnic</div>
+  <div><img src='opendata4.png' />Open data - Picnic</div>
+
+  <div><img src='divv.portal.png' />Data portal</div>
+  <div><img src='silos.png' />Different silos <em>&#9679;</em> not linked</div>
+  <div><img src='formats.png' />Different file formats</div>
+  <div>404 - not found</div>
+  <div><img src='bag-sql.png' />Different data models &amp; field names</div>
+  <div><img src='ndw-xml.png' />Different data models &amp; field names</div>
+  <div><img src='centraal_station.jpg' />Amsterdam Central Station</div>
+  <div><img src='wikipedia.jpg' />Wikipedia</div>
+  <div><img src='dbpedia.png' />DBpedia</div>
+  <div><img src='openstreetmap.png' />OpenStreetMap</div>
+  <div><img src='rijksmonumenten.png' />Cultural Heritage Site</div>
+  <div><img src='gvb.png' />GVB</div>
+
+  <div>Data uit <em>verschillende bronnen</em>, in <em>verschillende formaten</em></div>
+  <div>Veel data nog niet open...</div>
+  <div>Kadaster <em>&#9679;</em> Kamer van Koophandel <em>&#9679;</em> Openbaar vervoer</div>
+
+
+  <div>CitySDK <br /> <em>&#9679;</em> <br /> City Service Development Kit</div>
+  <div><img src='interoperability-01.png' />Interoperability (1)</div>
+  <div><img src='interoperability-02.png' />Interoperability (2)</div>
+
+  <div><img src='school-01.png' /></div>
+  <div><img src='school-03.png' /></div>
+  <div><i>Welke scholen zijn er in de buurt?</i> <em>&#9679;</em>
+    <i>Welke school is de beste?</i> <em>&#9679;</em>
+    <i>Hoe kan ik er veilig komen?</i>
+  </div>
+  <div><img src='school-02.png' /></div>
+  <div>Data beschikbaar, maar niet op één plek</div>
+  <div>CitySDK - uniforme API's voor steden</div>
+  <div>23 partners <br /> 8 countries <br /> 8 cities</div>
+  <div><img src='europe.png' />CitySDK cities</div>
+  <div><img src='interoperability-03.png' />Interoperability (3)</div>
+
+  <div><img src='parkinggarage1.png' />Concept (1)</div>
+  <div><img src='silos.png' />Concept (2)</div>
+  <div><img src='parkinggarage3.png' />Concept (3)</div>
+
+  <div>Wat kan je doen als je de volgende <em>open data</em> zou hebben...</div>
+
+  <div class="vraag">Toeristische evenementen, Toegangsprijzen, openingstijden?</div>
+    <div><img src='artsholland.png' />Arts Holland</div>
+    <div><img src='artsholland-detail1.png' />Arts Holland</div>
+    <div><img src='artsholland_api.gif' />Arts Holland - API</div>
+    <div><img src='artsholland_map.gif' />Arts Holland - Map</div>
+    <div><img src='tourism1.png' />Tourism API apps</div>
+    <div><img src='tourism2.png' />Tourism API apps</div>
+
+  <div class="vraag">Beschikbaarheid en prijzen van parkeerplaatsen?</div>
+    <div><img src='parkeerwidget.png' />Parking widget</div>
+
+  <div class="vraag">Handelsregister van Kamer van Koophandel?</div>
+    <div><img src='kvk1.png' />Handelsregister</div>
+    <div><img src='kvk2.png' />Handelsregister</div>
+    <div><img src='kvk3.png' />Handelsregister</div>
+    <div><img src='kvk4.png' />Handelsregister</div>
+
+  <div class="vraag">Alle OV-haltes en vertrektijden?</div>
+
+    <div>GTFS</div>
+    <div><img src='GoogleTransitBig.gif' />Portland</div>
+    <div><img src='googlemaps.png' />Google Maps</div>
+    <div><img src='otp.png' />OpenTripPlanner</div>
+    <div><img src='openov.png' />OpenTripPlanner</div>
+    <div><img src='gtfs1.png' />GTFS data example</div>
+
+  <div class="vraag">Sensorgegevens in de hele stad?</div>
+    <div><img src='sck.jpg' />SmartCitizenKit</div>
+    <div><img src='sck-website.png' />SmartCitizenKit - Website</div>
+    <div><img src='sck-api.png' />SmartCitizenKit - CitySDK LD API</div>
+
+  <div class="vraag">Landkaart van de heel Nederland?</div>
+    <div><img src='osm.jpg' />OpenStreetMap</div>
+    <div><img src='id-osm.png' />OpenStreetMap</div>
+   <div><img src='haarlem.png' />Haarlem</div>
+   <div><img src='westland.jpg' />Westland</div>
+   <div><img src='staphorst.png' />Staphorst</div>
+
+  <div class="vraag">Alles combineren!</div>
+    <div><img src='otpa.png' />OpenTripPlanner Analyst</div>
+    <div><img src='dashboard.png' />City Dashboard</div>
+
+  <div>
+    <span id="logos">
+      <a href="http://waag.org/en"><img src="waag.png" /></a>
+      <a href="http://citysdk.waag.org/"><img src="citysdk.png" /></a>
+    </span>
+  </div>
+</body>
+</html>
