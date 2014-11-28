@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Historische Geocoder - Demo Sprint 2</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="stylesheet" href="style.css" id="theme">
+  <script src="d3.v3.min.js" charset="utf-8"></script>
+	<script src="big.js"></script>
+</head>
+<body>
+  <span id="waag"></span>
+  <span id="background-image"></span>
+
+    <!--
+      # Hoofdvragen:
+
+        0. Wie gaat de geocoder gebruiken en waarvoor? Usecases!
+
+        1. Hoe wordt de HG-thesaurus opgeslagen? Hoe werkt in- en uitvoer-API?
+
+        2. Hoe werkt de zoekindex? Welk zoekresultaat wordt verwacht, welk detailniveau, hoe worden relaties gerepresenteerd?
+
+      # Aannames:
+
+        1. HG importeert en vertaalt databronnen naar HG-ontologie: PiT's en relaties.
+
+        2. Resultaat van zoekvraag is altijd PIT > PIT met geometrie
+    -->
+
+    <div>Historische Geocoder</div>
+    <div><img src='hgc-demo_architectuur.png' />Architectuur</div>
+    <div>Plaats-in-Tijd</div>
+    <div><img src='hgc-demo_pit.png' />PiT</div>
+    <div><img src='hgc-demo_bron-bag.png' />Bron: BAG</div>
+    <div><img src='hgc-demo_bron-gg.png' />Bron: GG</div>
+    <div><img src='hgc-demo_bron-script.png' />Bron: Script</div>
+    <div>HG-ontologie</div>
+    <div><img src='hgc-demo_ontologie.png' />Ontologie</div>
+    <div>Importeren &amp; vertalen!</div>
+    <div><img src='hgc-demo_hg-store.png' />HG-store</div>
+    <div>Zoekindex!</div>
+    <div><img src='hgc-demo_index.png' />Index</div>
+    <div>Zoekvraag: <i>Amstelledamme</i></div>
+    <div><img src='hgc-demo_zoekgraaf.png' />Zoekgraaf</div>
+    <div><img src='hgc-demo_zoekresultaat.png' />Zoekresultaat</div>
+</body>
+</html>
