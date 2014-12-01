@@ -28,13 +28,12 @@ h1, h2, h3, p {
   margin:0;
 }
 
-.corner, em {
-  font-style:normal;
-  color: #F9E426;
+em {
+  font-style: normal;
+  color: #105E8E;
 }
 
 a {
-  color: white;
   text-decoration:none;
 }
 
@@ -72,6 +71,16 @@ i:before {
 
 i:after {
   content: '”';
+}
+
+ol, ul {
+  margin-left: 1.2em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li {
+
 }
 
 #waag {
