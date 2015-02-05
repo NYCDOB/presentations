@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1024px" height="768px" viewBox="0 0 1024 768" enable-background="new 0 0 1024 768" xml:space="preserve">
+<g>
+	
+		<path fill="#04A6FF" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M664,686.073c167,0,300.073-134.348,300.073-300.073C964.073,220.274,831,85.927,664,85.927V686.073z"/>
+	<path opacity="0.2" fill="#FFFFFF" d="M964.61,386H664.34l259.871,150.037C951.609,488.58,964.613,436.6,964.61,386z"/>
+	<path opacity="0.2" fill="#FFFFFF" d="M814.234,125.702L664.1,385.745l259.872-150.038
+		C896.424,187.993,858.057,151.001,814.234,125.702z"/>
+	
+		<path fill="#5BBF27" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M814.135,646.042L664,386v300.073C719,686.073,770.043,671.501,814.135,646.042z"/>
+</g>
+<text transform="matrix(1 0 0 1 645.2754 63.0938)" font-family="'BreeSerif-Regular'" font-size="70">0</text>
+<text transform="matrix(1 0 0 1 29.9058 335.0557)" font-family="'BreeSerif-Regular'" font-size="123.0033">Maptime!</text>
+<text transform="matrix(1 0 0 1 236.6504 106.6738)" font-family="'BreeSerif-Regular'" font-size="74.5418" text-decoration=" underline">Schedule:</text>
+<text transform="matrix(1 0 0 1 231.5815 522.9346)"><tspan x="0" y="0" font-family="'BreeSerif-Regular'" font-size="66.3116">Something</tspan><tspan x="-8.621" y="79.574" font-family="'BreeSerif-Regular'" font-size="66.3116">completely</tspan><tspan x="53.447" y="159.147" font-family="'BreeSerif-Regular'" font-size="66.3116">different</tspan></text>
+<text transform="matrix(1 0 0 1 821.0703 702)" font-family="'BreeSerif-Regular'" font-size="70">25</text>
+<text transform="matrix(1 0 0 1 627.0059 749)" font-family="'BreeSerif-Regular'" font-size="70">30</text>
+<line fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="12" x1="581" y1="301" x2="713" y2="301"/>
+<line fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="12" x1="581" y1="591" x2="713" y2="591"/>
+</svg>
