@@ -11,7 +11,7 @@
 	<path opacity="0.2" fill="#FFFFFF" d="M814.234,125.702L664.1,385.745l259.872-150.038
 		C896.424,187.993,858.057,151.001,814.234,125.702z"/>
 	
-		<path fill="#5BBF27" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		<path fill="#FF6300" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
 		M814.135,646.042L664,386v300.073C719,686.073,770.043,671.501,814.135,646.042z"/>
 </g>
 <text transform="matrix(1 0 0 1 645.2754 63.0938)" font-family="'BreeSerif-Regular'" font-size="70">0</text>
