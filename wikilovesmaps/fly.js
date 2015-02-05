@@ -1,7 +1,7 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiYmVydHNwYWFuIiwiYSI6IlVseGF5ZHMifQ.ofEbyjhY2N_1861THCPFeQ';
 var map = new mapboxgl.Map({
   container: 'mapbox-gl',
-  style: 'https://www.mapbox.com/mapbox-gl-styles/styles/outdoors-v6.json',
+  style: 'https://www.mapbox.com/mapbox-gl-styles/styles/bright-v6.json',
   center: [52.3727,4.9002],
   zoom: 13,
   interactive: false
@@ -87,7 +87,7 @@ function flyToChapter() {
       13,
       0,
       {
-        speed: 0.5
+        speed: 0.3
       }
     );
   }
