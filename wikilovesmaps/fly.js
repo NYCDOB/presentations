@@ -87,7 +87,7 @@ function flyToChapter() {
       13,
       0,
       {
-        speed: 0.3
+        speed: 0.4
       }
     );
   }
