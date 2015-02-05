@@ -2,7 +2,7 @@ window.onload = function() {
   var cx = Math.max(document.documentElement.clientWidth, window.innerWidth || 0) / 2,
       cy = Math.max(document.documentElement.clientHeight, window.innerHeight || 0) / 2;
 
-  var flyToInterval;
+  var flyToInterval, flyToInterval2;
 
   //var s = document.getElementsByTagName('div'), cur = 0, ti;
   var s = document.querySelectorAll("body > div"), cur = 0, ti;
@@ -23,7 +23,13 @@ window.onload = function() {
     // Mapbox GL stuf...
     if (e.id === 'mapbox-gl') {
       map.resize();
-      flyToInterval = window.setInterval(flyToChapter, 16000);
+      flyToInterval = window.setInterval(flyToChapter, 20000);
+
+      flyToInterval2 = window.setInterval(function() {
+        clearInterval(flyToInterval2);
+        flyToChapter();
+      }, 2000);
+
     } else {
       clearInterval(flyToInterval);
     }
