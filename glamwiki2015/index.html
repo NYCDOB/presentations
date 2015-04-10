@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Maptime &amp; Histograph</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="stylesheet" href="style.css" id="theme">
+  <script src="d3.v3.min.js" charset="utf-8"></script>
+	<script src="big.js"></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.4.0/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.4.0/mapbox-gl.js'></script>
+</head>
+<body>
+  <span id="waag"></span>
+  <span id="background-image"></span>
+  <div><img src='maptime.png' />Maptime!</div>
+  <div><img src='corsica.jpg' />Corsica!</div>
+  <div>Read along:
+    <code><a href="http://bertspaan.nl/presentations/wikilovesmaps">
+      http://bertspaan.nl/
+      presentations/
+      glamwiki2015
+    </a></code></div>
+  <div><img src='schedule.svg' />Schedule</div>
+  <div>Bert Spaan <br /> <a style="color: rgba(0,0,0,0.3);" href="https://twitter.com/bertspaan">@bertspaan</a></div>
+  <div><a href="http://waag.org/en">Waag Society</a></div>
+  <div><img src='nieuwmarkt.jpg' />Nieuwmarkt</div>
+  <div>Open Data</div>
+  <div><img src='codefornl.png' />Buildings map</div>
+  <div>Open Hardware, Open Bio, Open Design</div>
+  <div><img src='wetlab.jpg' />Open Wetlab</div>
+  <div>OK. Now, it's...</div>
+  <div><img src='maptime.png' />Maptime!</div>
+  <div><i>Maps for all forever!</i></div>
+  <div>
+    <ol>
+      <li>A time for learning about maps</li>
+      <li>Hands-on</li>
+      <li>Beginner-focused</li>
+      <li>Emphasis on open source, programming, and web-mapping</li>
+    </ol>
+  </div>
+  <div><i>Please bring a laptop! Beginners very welcome.</i></div>
+  <div><img src='about-maptime.png' />How it all got started</div>
+  <div class="map" id="mapbox-gl"></div>
+  <div><img src='maptimes.png' />Maptimes!</div>
+
+  <div><b>Previously</b>: GIS, expensive, closed-source, difficult</div>
+  <div><img src='arcgis.jpg' />ArcGIS</div>
+  <div><b>Maptime</b>: open source, tutorials, share knowledge</div>
+  <div><img src='github-diff.gif' />GitHub Diff</div>
+
+  <div><img src='d3js1.jpg' />D3.js</div>
+  <div><img src='leaflet.jpg' />Leaflet</div>
+  <div><img src='mapboxstudio1.jpg' />Mapbox Studio</div>
+  <div><img src='id-osm.png' />OpenStreetMap</div>
+  <div><img src='geojson.io.jpg' />geojson.io</div>
+  <div><img src='kildall.jpg' />Fablab</div>
+
+  <div><a href="http://maptime.io">maptime.io</a></div>
+  <div><img src='resources.png' />maptime.io - resources</div>
+  <div><img src='maptime-github.png' />Maptime on GitHub</div>
+
+  <div><img src='maptime-ams-logo.jpg' />Maptime Amsterdam</div>
+  <div><img src='maptime-ams-1.jpg' />Maptime Amsterdam</div>
+  <div><img src='maptime-ams-3.jpg' />Maptime Amsterdam</div>
+  <div><img src='maptime-ams-4.jpg' />Maptime Amsterdam</div>
+  <div>Designers, developers, students,
+    cartographers, historians, architects</div>
+  <div><b>Beginners</b> and <b>experts!</b></div>
+  <div class="map">
+    <iframe height="100%" width="100%" frameborder="0" src="http://maptime-ams.github.io/one-dimensional-maps/maps/ifrik/"></iframe>
+  </div>
+  <div><a href="http://maptime-ams.github.io">http://maptime-ams.github.io</a></div>
+
+  <div>Historical Geocoder</div>
+  <div><i>Haga Comitis</i></div>
+  <div><i>Vondelkade, Amsterdam</i></div>
+  <div><b>Datasets:</b> TGN, GeoNames, Dutch East India Company archives, monastry registries, OSM, DBpedia, Wikidata, etc.</div>
+
+  <div><img src='histograph-graph.jpg' />Historical Geocoder</div>
+  <div><img src='histograph-viewer.jpg' />Historical Geocoder</div>
+  <div><img src='histograph-github.jpg' />Historical Geocoder</div>
+
+  <div><img src='betondorp.png' />Betondorp</div>
+  <div>Workshop:
+    <code><a href="http://maptime-ams-github.io/street-patterns">
+      http://maptime-ams.github.io/
+      street-patterns
+    </a></code></div>
+  <div><img src='budapest.jpg' />Budapest</div>
+
+  <div><h4>Thanks!&nbsp;<img src="thanks.png" /></h4></div>
+
+  <script src="fly.js"></script>
+</body>
+</html>

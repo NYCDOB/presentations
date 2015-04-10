@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1024px" height="768px" viewBox="0 0 1024 768" enable-background="new 0 0 1024 768" xml:space="preserve">
+<path fill="#04A6FF" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M634,686.073c167,0,300.072-134.349,300.072-300.073C934.073,220.274,801,85.927,634,85.927V686.073z"/>
+<path opacity="0.2" fill="#FFFFFF" enable-background="new    " d="M934.61,386H634.34l259.871,150.037
+	C921.609,488.58,934.613,436.6,934.61,386z"/>
+<path fill="#FF6300" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M784.135,646.042L634,386v300.073C689,686.073,740.043,671.501,784.135,646.042z"/>
+<path fill="#DF5FED" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M634,85.927V386l150.135-260.042C740.043,100.499,689,85.927,634,85.927z"/>
+<text transform="matrix(1 0 0 1 615.2756 63.0938)" font-family="'BreeSerif-Regular'" font-size="70">0</text>
+<text transform="matrix(1 0 0 1 20.3528 333.3232)" font-family="'BreeSerif-Regular'" font-size="116.7181">Maptime!</text>
+<text transform="matrix(1 0 0 1 202.2664 66.6738)" font-family="'BreeSerif-Regular'" font-size="74.5418" text-decoration=" underline">Schedule:</text>
+<text transform="matrix(1 0 0 1 223.0051 447.4385)" enable-background="new    "><tspan x="0" y="0" font-family="'BreeSerif-Regular'" font-size="66.3116">Historical</tspan><tspan x="19.36" y="79.574" font-family="'BreeSerif-Regular'" font-size="66.3116">Geocoder</tspan></text>
+<text transform="matrix(1 0 0 1 167.9641 660.0088)" font-family="'BreeSerif-Regular'" font-size="66.3116">Workshop?!</text>
+<text transform="matrix(1 0 0 1 140.3137 197.5288)" font-family="'BreeSerif-Regular'" font-size="66.3116">Introduction</text>
+<text transform="matrix(1 0 0 1 950.0627 406.5156)" font-family="'BreeSerif-Regular'" font-size="70">15</text>
+<text transform="matrix(1 0 0 1 597.0061 749)" font-family="'BreeSerif-Regular'" font-size="70">30</text>
+<line fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="12" x1="551" y1="641" x2="683" y2="641"/>
+<line fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="12" x1="551" y1="176.602" x2="683" y2="176.602"/>
+<path fill="#81C17E" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M934.695,385.899c0.002-50.913-12.898-102.403-40.399-150.035c-25.455-44.094-62.373-82.235-110.004-109.735L634.254,386
+	l0.172-0.099L934.695,385.899z"/>
+<path opacity="0.2" fill="#FFFFFF" enable-background="new    " d="M784.234,125.702L634.1,385.745l259.872-150.038
+	C866.424,187.993,828.057,151.001,784.234,125.702z"/>
+<line fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="12" x1="551" y1="301" x2="784.475" y2="301"/>
+<line fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="12" x1="551" y1="471.019" x2="784.475" y2="471.019"/>
+</svg>
