@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Historische Geocoder - Sprint 6 - Demo</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="stylesheet" href="style.css" id="theme">
+  <script src="d3.v3.min.js" charset="utf-8"></script>
+	<script src="big.js"></script>
+</head>
+<body>
+  <span id="background-image"></span>
+  <div>Historische Geocoder - Sprint 6 - Demo</div>
+  <div><b>Place-in-Time</b> - Ontologie</div>
+  <div><img src='viewer.png' />Viewer</div>
+  <div>Eigenschappen:
+    <ul>
+      <li>Type</li>
+      <li>Locatie</li>
+      <li>Periode</li>
+      <li><i>Concept</i></li>
+    </ul>
+  </div>
+  <div>Locatie, periode</div>
+  <div>Type</div>
+  <div>
+    Adres, gebouw, straat, wijk, plaats, gemeente, provincie, departement, land, et&nbsp;cetera
+  </div>
+  <div>Concept</div>
+  <div><code>hg:sameHgConcept</code></div>
+  <div>De Rijp uit <b>dataset A</b> is dezelfde De Rijp uit <b>dataset B</b></div>
+  <div><img src='sameasconcept.png' />sameHgConcept</div>
+  <div>Concepten kunnen elkaar <b>doorsnijden of bevatten</b></div>
+  <div>Voorbeeld: <b>Keulsevaart</b> en <b>Merwedekanaal</b></div>
+  <div><img src='keulsevaart.png' />Keulse Vaart</div>
+  <div><img src='ontology.png' />Ontologie</div>
+
+  <div>Basisdatasets: <b>TGN, GeoNames, BAG, Gemeentegeschiedenis</b></div>
+  <div>Getty Thesaurus of Geographic Names</div>
+  <div><img src='tgn.png' />TGN</div>
+  <div>GeoNames</div>
+  <div><img src='geonames.png' />GeoNames</div>
+  <div>Basisregistraties Adressen &amp; Gebouwen</div>
+  <div><img src='bag.png' />BAG</div>
+  <div>Gemeentegeschiedenis</div>
+  <div><img src='gemeentegeschiedenis.png' />Gemeentegeschiedenis</div>
+  <div>Adres ligt in straat ligt in plaats ligt in gemeente ligt in provincie ligt in land!</div>
+  <div><b>Verschillende hiërarchiën</b>, geldig voor bepaalde periode</div>
+  <div><img src='hierarchies.png' />Hierarchies</div>
+  <div><b>Importers voor basisdatasets</b> - automatisch laatste versie van data</div>
+  <div><img src='histograph-data.png' />Histograph Data</div>
+  <div><code>hg:sameHgConcept</code></div>
+  <div>Meerdere PIT's in één concept</div>
+  <div><img src='sameasconcept.png' />sameHgConcept</div>
+  <div>Geocoder: <i>Wevershof, De Rijp</i>, <i>St. Antoniespoort, Amstelledamme</i></div>
+  <div><code>hg:liesIn</code></div>
+  <div><b>Menno's eigen dataset:</b> straten en gebouwen in De Rijp</div>
+  <div><img src='menno.png' />Menno!</div>
+  <div>Koppeling tussen <b>NWB</b> en <b>BAG</b></div>
+  <div><img src='menno-relations.png' />Menno - relations</div>
+  <div><img src='cypher-query.png' />Cypher</div>
+  <div><img src='neo-wevershof-before.png' />Before</div>
+  <div><img src='neo-wevershof-after.png' />After</div>
+  <div><img src='api-liesin.png' />API: hg:liesIn</div>
+  <div><h4>Dat was 't!&nbsp;<img src="thanks.png" /></h4></div>
+</body>
+</html>
