@@ -1,0 +1,22 @@
+// PITS
+
+{"id":"7266727","name":"Hezingen","type":"hg:Place",
+  "uri":"http://vocab.getty.edu/tgn/7266727",
+  "geometry":{"type":"Point","coordinates":[6.866667,52.45]}}
+
+{"id":"7003626","name":"Overijssel","type":"hg:Province",
+  "uri":"http://vocab.getty.edu/tgn/7003626",
+  "geometry":{"type":"Point","coordinates":[6.5,52.4167]}}
+
+{"id":"7006952","name":"Amsterdam","type":"hg:Place",
+   "uri":"http://vocab.getty.edu/tgn/7006952",
+   "geometry":{"type":"Point","coordinates":[4.916667,52.35]}}
+
+{"id":"term-352466","name":"Amstelledamme","type":"hg:Place","uri":"http://vocab.getty.edu/tgn/term/352466","data":{"comment":"earliest form of the name, 13th cen."},"hasBeginning":"1200-01-01","hasEnd":"1500-12-31"}
+
+// Relations
+
+{"from":"7266727","to":"http://vocab.getty.edu/tgn/7003626","label":"hg:liesIn"}
+
+{"from":"http://vocab.getty.edu/tgn/term/352466",
+  "to":"http://vocab.getty.edu/tgn/7006952","label":"hg:sameHgConcept"}

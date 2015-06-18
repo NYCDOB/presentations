@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="800px"
+	 height="600px" viewBox="0 0 800 600" enable-background="new 0 0 800 600" xml:space="preserve">
+<symbol  id="New_Symbol_1" viewBox="-67 -17 134 34">
+	
+		<polygon fill="#F16913" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		66,-16 -66,-16 -66,16 66,16 	"/>
+	<text transform="matrix(1 0 0 -1 -40.832 -5.1934)" font-family="'Consolas'" font-size="14">hg:Province</text>
+	<polygon display="none" fill="none" points="-67,17 67,17 67,-17 -67,-17 	"/>
+</symbol>
+<symbol  id="New_Symbol_2_2_" viewBox="-67 -17 134 34">
+	
+		<polygon fill="#FD8D3C" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		66,-16 -66,-16 -66,16 66,16 	"/>
+	<text transform="matrix(1 0 0 -1 -56.2266 -3.1914)" font-family="'Consolas'" font-size="14">hg:Municipality</text>
+	<polygon display="none" fill="none" points="-67,17 67,17 67,-17 -67,-17 	"/>
+</symbol>
+<symbol  id="New_Symbol_3_2_" viewBox="-67 -17 134 34">
+	
+		<polygon fill="#FDAE6B" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		66,-16 -66,-16 -66,16 66,16 	"/>
+	<text transform="matrix(1 0 0 -1 -29.2861 -4.1924)" font-family="'Consolas'" font-size="14">hg:Place</text>
+	<polygon display="none" fill="none" points="-67,17 67,17 67,-17 -67,-17 	"/>
+</symbol>
+<symbol  id="New_Symbol_4" viewBox="-67 -17 134 34">
+	
+		<polygon fill="#FDD0A2" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		66,-16 -66,-16 -66,16 66,16 	"/>
+	<text transform="matrix(1 0 0 -1 -33.1348 -5.1934)" font-family="'Consolas'" font-size="14">hg:Street</text>
+	<polygon display="none" fill="none" points="-67,17 67,17 67,-17 -67,-17 	"/>
+</symbol>
+<symbol  id="New_Symbol_5" viewBox="-28 -17 95 34">
+	
+		<polygon fill="#FEE6CE" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		66,-16 -27,-16 -27,16 66,16 	"/>
+	<text transform="matrix(1 0 0 -1 -22.832 -3.1914)" font-family="'Consolas'" font-size="14">hg:Building</text>
+	<polygon display="none" fill="none" points="-28,17 67,17 67,-17 -28,-17 	"/>
+</symbol>
+<g id="types">
+	<g id="New_Symbol_2">
+	</g>
+	<g id="New_Symbol_2_1_">
+	</g>
+	
+		<use xlink:href="#New_Symbol_3_2_"  width="134" height="34" x="-67" y="-17" transform="matrix(1 0 0 -1 563 331)" overflow="visible"/>
+	
+		<use xlink:href="#New_Symbol_4"  width="134" height="34" x="-67" y="-17" transform="matrix(1 0 0 -1 561 410)" overflow="visible"/>
+	<g id="New_Symbol_3">
+	</g>
+	
+		<use xlink:href="#New_Symbol_4"  width="134" height="34" x="-67" y="-17" transform="matrix(1 0 0 -1 722 410)" overflow="visible"/>
+	
+		<use xlink:href="#New_Symbol_5"  width="95" height="34" id="XMLID_1_" x="-28" y="-17" transform="matrix(1 0 0 -1 561 490)" overflow="visible"/>
+	<g id="New_Symbol_6">
+		
+			<rect x="495" y="553" fill="#FFF5EB" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="132" height="32"/>
+		<text transform="matrix(1 0 0 1 524.0166 573.1924)" font-family="'Consolas'" font-size="14">hg:Address</text>
+	</g>
+</g>
+<g id="relations">
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="515" y1="553" x2="515" y2="436"/>
+			<g>
+				<polygon points="518.37,439 515.002,426.425 511.63,439 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="565" y1="394" x2="565" y2="357"/>
+			<g>
+				<polygon points="568.37,360 565.002,347.425 561.63,360 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="581" y1="553" x2="581" y2="516"/>
+			<g>
+				<polygon points="584.37,519 581.002,506.425 577.63,519 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="581" y1="475" x2="580.604" y2="436.276"/>
+			<g>
+				<polygon points="583.998,438.54 580.502,426 577.259,438.609 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="header">
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="241" y1="156" x2="241" y2="119"/>
+			<g>
+				<polygon points="244.37,122 241.002,109.425 237.63,122 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="241" y1="236" x2="241" y2="198"/>
+			<g>
+				<polygon points="244.37,201 241.002,188.425 237.63,201 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="241" y1="315" x2="241" y2="278"/>
+			<g>
+				<polygon points="244.37,281 241.002,268.425 237.63,281 				"/>
+			</g>
+		</g>
+	</g>
+	
+		<use xlink:href="#New_Symbol_2_2_"  width="134" height="34" x="-67" y="-17" transform="matrix(1 0 0 -1 241 252)" overflow="visible"/>
+	
+		<use xlink:href="#New_Symbol_1"  width="134" height="34" id="XMLID_2_" x="-67" y="-17" transform="matrix(1 0 0 -1 241 172)" overflow="visible"/>
+	<g id="New_Symbol_1_">
+		
+			<rect x="175" y="77" fill="#D94801" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="132" height="32"/>
+		<text transform="matrix(1 0 0 1 204.0166 97.1924)" font-family="'Consolas'" font-size="14">hg:Country</text>
+	</g>
+	
+		<use xlink:href="#New_Symbol_3_2_"  width="134" height="34" x="-67" y="-17" transform="matrix(1 0 0 -1 241 331)" overflow="visible"/>
+	<text transform="matrix(1 0 0 1 206.8857 41.7002)" font-family="'OpenSans'" font-size="13">GeoNames</text>
+	
+		<use xlink:href="#New_Symbol_1"  width="134" height="34" x="-67" y="-17" transform="matrix(1 0 0 -1 403 172)" overflow="visible"/>
+	<g id="New_Symbol">
+		
+			<rect x="337" y="77" fill="#D94801" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="132" height="32"/>
+		<text transform="matrix(1 0 0 1 366.0166 97.1924)" font-family="'Consolas'" font-size="14">hg:Country</text>
+	</g>
+	
+		<use xlink:href="#New_Symbol_3_2_"  width="134" height="34" x="-67" y="-17" transform="matrix(1 0 0 -1 403 331)" overflow="visible"/>
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="403" y1="314" x2="403" y2="199"/>
+			<g>
+				<polygon points="406.37,202 403.002,189.425 399.63,202 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="403" y1="156" x2="403" y2="119"/>
+			<g>
+				<polygon points="406.37,122 403.002,109.425 399.63,122 				"/>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 391.2744 41.7002)" font-family="'OpenSans'" font-size="13">TGN</text>
+	<text transform="matrix(1 0 0 1 549.4434 41.7002)" font-family="'OpenSans'" font-size="13">BAG</text>
+	<text transform="matrix(1 0 0 1 707.3711 41.7002)" font-family="'OpenSans'" font-size="13">NWB</text>
+	
+		<line fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12" y1="59.5" x2="784" y2="59.5"/>
+	<g>
+		<g>
+			<line fill="none" stroke="#848484" stroke-width="2" stroke-miterlimit="10" x1="314" y1="172" x2="330" y2="172"/>
+			<g>
+				<circle fill="#848484" cx="314.008" cy="172" r="3.008"/>
+			</g>
+			<g>
+				<circle fill="#848484" cx="329.992" cy="172" r="3.008"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#848484" stroke-width="2" stroke-miterlimit="10" x1="314" y1="93" x2="330" y2="93"/>
+			<g>
+				<circle fill="#848484" cx="314.008" cy="93" r="3.008"/>
+			</g>
+			<g>
+				<circle fill="#848484" cx="329.992" cy="93" r="3.008"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#848484" stroke-width="2" stroke-miterlimit="10" x1="314" y1="331" x2="330" y2="331"/>
+			<g>
+				<circle fill="#848484" cx="314.008" cy="331" r="3.008"/>
+			</g>
+			<g>
+				<circle fill="#848484" cx="329.992" cy="331" r="3.008"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#848484" stroke-width="2" stroke-miterlimit="10" x1="150" y1="331" x2="166" y2="331"/>
+			<g>
+				<circle fill="#848484" cx="150.008" cy="331" r="3.008"/>
+			</g>
+			<g>
+				<circle fill="#848484" cx="165.992" cy="331" r="3.008"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#848484" stroke-width="2" stroke-miterlimit="10" x1="475" y1="331" x2="491" y2="331"/>
+			<g>
+				<circle fill="#848484" cx="475.008" cy="331" r="3.008"/>
+			</g>
+			<g>
+				<circle fill="#848484" cx="490.992" cy="331" r="3.008"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#848484" stroke-width="2" stroke-miterlimit="10" x1="633" y1="411" x2="649" y2="411"/>
+			<g>
+				<circle fill="#848484" cx="633.008" cy="411" r="3.008"/>
+			</g>
+			<g>
+				<circle fill="#848484" cx="648.992" cy="411" r="3.008"/>
+			</g>
+		</g>
+	</g>
+	<g id="New_Symbol_3_1_">
+		
+			<rect x="11" y="315" fill="#FDAE6B" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="132" height="32"/>
+		<text transform="matrix(1 0 0 1 47.7139 335.1924)" font-family="'Consolas'" font-size="14">hg:Place</text>
+	</g>
+	<text transform="matrix(1 0 0 1 38.1064 41.7002)" font-family="'OpenSans'" font-size="13">Toponiemen</text>
+</g>
+</svg>
