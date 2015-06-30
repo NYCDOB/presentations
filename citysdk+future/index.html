@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CitySDK + Future</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="stylesheet" href="style.css" id="thie">
+  <script src="d3.v3.min.js" charset="utf-8"></script>
+	<script src="big.js"></script>
+</head>
+<body>
+  <span id="waag"></span>
+  <span id="background-image"></span>
+
+  <div>CitySDK + Future</div>
+  <div>Concepts, ideas, plans - <em>in telegram style</em></div>
+  <div>CitySDK: three-year open data project, funded by European Union</div>
+  <div>8 cities, three domains: <em>participation</em>, <em>mobility</em>, <em>tourism</em></div>
+  <div>Project website: <a href="http://citysdk.eu/">http://citysdk.eu</a></div>
+  <div>Waag Society worked on the <em>mobility domain</em></div>
+  <div><em>One API</em> for a city's mobility data - public transport schedules, parking garages, traffic speed, etc.</div>
+  <div><em>Main concept</em>: link data from different datasets/silos to objects that actually exist in a city</div>
+  <div><img src='silos.png' />Silos</div>
+  <div><img src='parkinggarage1.png' />Parking Garage</div>
+  <div><img src='parkinggarage3.png' />Parking Garage</div>
+  <div>Objects can contain data on <em>multiple layers</em></div>
+  <div><img src='screenshot.png' />Parking Garage</div>
+  <div>Result: CitySDK&nbsp;LD&nbsp;API</div>
+  <div><em>LD = Linked Data</em></div>
+  <div>Linked: linking datasets through objects in city, and <a href="http://json-ld.org/">JSON-LD output</a></div>
+  <div>JSON-LD: JSON for Linking Data - <a href="http://json-ld.org/">http://json-ld.org</a></div>
+  <div>CitySDK LD API - <a href="http://citysdk.waag.org/">http://citysdk.waag.org</a></div>
+  <div><em>REST API</em>, Ruby + PostGIS, GeoJSON + JSON-LD output</div>
+  <div><img src='api.png' />API</div>
+  <div>Extra: import modules for OpenStreetMap and GTFS</div>
+  <div><em>Current status</em>: project ended December 2014</div>
+  <div>CitySDK LD API v1.0 is finished</div>
+  <div>We have many plans/ideas to improve API! (But, however, currently no time/money)</div>
+  <div>For example:</div>
+  <div>Difficult to update data, no easy interface for adding datasets, links between dataset can break on update</div>
+  <div>Importing datasets and keeping data up-to-date is costly</div>
+  <div>FUTURE PLANS:</div>
+  <div>Work with Amsterdam Institute for Advanded Metropolitan Solutions on Amsterdam's new open data platform</div>
+  <div>Amsterdam Institute for Advanded Metropolitan Solutions: <a href="http://www.ams-amsterdam.com/">http://www.ams-amsterdam.com</a></div>
+  <div>And we are currently working on two other open data projects:</div>
+  <div>1: Heritage &amp; Location - connecting cultural heritage</div>
+  <div>See <a href="http://histograph.io">http://histograph.io</a></div>
+  <div>Import and link data about <em>(historical) place names</em> from many different data sets</div>
+  <div><img src='graph.png' />Graph</div>
+  <div>2: Transparant Nederland</div>
+  <div>Import and link data about <em>people, companies, organizations and politics</em> from many different data sets</div>
+  <div>Both projects share concepts with CitySDK LD API, but allow for easy importing and updating of data</div>
+  <div>Goals: combine CitySDK LD API &amp; Histograph &amp; Transparant Nederland</div>
+  <div>Create easy-to-use (for developers &amp; data owners) open data platform, and dynamic links between data sets</div>
+  <div>That's it!</div>
+</body>
+</html>

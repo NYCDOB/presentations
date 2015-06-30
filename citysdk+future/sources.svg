@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="800px" height="600px" viewBox="0 0 800 600" enable-background="new 0 0 800 600" xml:space="preserve">
+<symbol  id="New_Symbol_1" viewBox="-67 -17 134 34">
+	
+		<polygon fill="#F16913" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		66,-16 -66,-16 -66,16 66,16 	"/>
+	<polygon display="none" fill="none" points="-67,17 67,17 67,-17 -67,-17 	"/>
+</symbol>
+<symbol  id="New_Symbol_2_2_" viewBox="-67 -17 134 34">
+	
+		<polygon fill="#FD8D3C" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		66,-16 -66,-16 -66,16 66,16 	"/>
+	<polygon display="none" fill="none" points="-67,17 67,17 67,-17 -67,-17 	"/>
+</symbol>
+<symbol  id="New_Symbol_3_2_" viewBox="-67 -17 134 34">
+	
+		<polygon fill="#FDAE6B" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		66,-16 -66,-16 -66,16 66,16 	"/>
+	<polygon display="none" fill="none" points="-67,17 67,17 67,-17 -67,-17 	"/>
+</symbol>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="246.938" y1="256.546" x2="246.938" y2="214.371"/>
+		<g>
+			<polygon points="250.78,217.79 246.94,203.456 243.097,217.79 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="246.938" y1="347.736" x2="246.938" y2="304.421"/>
+		<g>
+			<polygon points="250.78,307.84 246.94,293.506 243.097,307.84 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="246.938" y1="437.786" x2="246.938" y2="395.61"/>
+		<g>
+			<polygon points="250.78,399.03 246.94,384.696 243.097,399.03 			"/>
+		</g>
+	</g>
+</g>
+<use xlink:href="#New_Symbol_2_2_"  width="134" height="34" id="XMLID_4_" x="-67" y="-17" transform="matrix(1.1399 0 0 -1.1399 246.9385 365.9746)" overflow="visible"/>
+<use xlink:href="#New_Symbol_1"  width="134" height="34" id="XMLID_2_" x="-67" y="-17" transform="matrix(1.1399 0 0 -1.1399 246.9385 274.7842)" overflow="visible"/>
+<g id="New_Symbol_1_">
+	
+		<rect x="171.707" y="166.496" fill="#D94801" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="150.463" height="36.476"/>
+</g>
+<use xlink:href="#New_Symbol_3_2_"  width="134" height="34" x="-67" y="-17" transform="matrix(1.1399 0 0 -1.1399 246.9385 456.0244)" overflow="visible"/>
+<text transform="matrix(1 0 0 1 208.0527 126.2588)" font-family="'OpenSans'" font-size="14.8184">Databron 1</text>
+<use xlink:href="#New_Symbol_1"  width="134" height="34" id="XMLID_1_" x="-67" y="-17" transform="matrix(1.1399 0 0 -1.1399 579.7822 274.7842)" overflow="visible"/>
+<rect x="504.55" y="166.496" fill="#D94801" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="150.464" height="36.476"/>
+<text transform="matrix(1 0 0 1 514.8281 189.5127)" font-family="'Consolas'" font-size="14.8184">Plaatsreferentie</text>
+<text transform="matrix(1 0 0 1 514.8281 279.5625)" font-family="'Consolas'" font-size="14.8184">Plaatsreferentie</text>
+<text transform="matrix(1 0 0 1 514.8281 460.8027)" font-family="'Consolas'" font-size="14.8184">Plaatsreferentie</text>
+<use xlink:href="#New_Symbol_3_2_"  width="134" height="34" id="XMLID_3_" x="-67" y="-17" transform="matrix(1.1399 0 0 -1.1399 579.7822 456.0244)" overflow="visible"/>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="579.782" y1="436.646" x2="579.782" y2="305.561"/>
+		<g>
+			<polygon points="583.623,308.98 579.784,294.646 575.94,308.98 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="579.782" y1="256.546" x2="579.782" y2="214.371"/>
+		<g>
+			<polygon points="583.623,217.79 579.784,203.456 575.94,217.79 			"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 543.6191 126.2588)" font-family="'OpenSans'" font-size="14.8184">Databron 2</text>
+<line fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="141.5" y1="146.548" x2="687.5" y2="146.548"/>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#848484" stroke-width="2" stroke-miterlimit="10" x1="330.149" y1="274.784" x2="495.431" y2="274.784"/>
+		<g>
+			<circle fill="#848484" cx="330.158" cy="274.784" r="3.428"/>
+		</g>
+		<g>
+			<circle fill="#848484" cx="495.422" cy="274.784" r="3.428"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#848484" stroke-width="2" stroke-miterlimit="10" x1="330.149" y1="184.734" x2="495.431" y2="184.734"/>
+		<g>
+			<circle fill="#848484" cx="330.158" cy="184.734" r="3.428"/>
+		</g>
+		<g>
+			<circle fill="#848484" cx="495.422" cy="184.734" r="3.428"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#848484" stroke-width="2" stroke-miterlimit="10" x1="330.149" y1="456.024" x2="495.431" y2="456.024"/>
+		<g>
+			<circle fill="#848484" cx="330.158" cy="456.024" r="3.428"/>
+		</g>
+		<g>
+			<circle fill="#848484" cx="495.422" cy="456.024" r="3.428"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 183.1245 189.5127)" font-family="'Consolas'" font-size="14.8184">Plaatsreferentie</text>
+<text transform="matrix(1 0 0 1 183.1245 278.4229)" font-family="'Consolas'" font-size="14.8184">Plaatsreferentie</text>
+<text transform="matrix(1 0 0 1 183.1245 368.4727)" font-family="'Consolas'" font-size="14.8184">Plaatsreferentie</text>
+<text transform="matrix(1 0 0 1 183.1245 460.8027)" font-family="'Consolas'" font-size="14.8184">Plaatsreferentie</text>
+<text transform="matrix(1 0 0 1 514.8281 459.6631)" font-family="'Consolas'" font-size="14.8184">Plaatsreferentie</text>
+</svg>
