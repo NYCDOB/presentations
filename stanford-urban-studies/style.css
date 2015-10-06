@@ -70,7 +70,8 @@
 
 body {
   font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: rgba(218, 237, 142, 0.5);
+/*  background: rgba(218, 237, 142, 0.5);*/
+  background: #ffd555;
   color: black;
   margin: 0;
   padding: 0;
